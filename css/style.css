@@ -17,8 +17,53 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  max-width: 500px;
   height: auto;
   padding-bottom: 20px;
+}
+
+.buttons a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #D0D3D4;
+}
+
+.buttons ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+.buttons li{
+  display:inline;
+  padding: 20px 20px 20px 20px;
+  color: #ffffff;
+}
+
+.buttons{
+  background-color: #000000;
+  display:table;
+  margin:0 auto;
+}
+
+section{
+  background-color: #000000;
+  color: #D0D3D4;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+section h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section h2{
+  text-align: center;
 }
 
 footer{
@@ -27,9 +72,10 @@ footer{
   text-align: center;
 }
 
+
 #main{
   background-color:#000000;
-  color: #ffffff;
+  color: #D0D3D4;
   text-align: center;
   display: block;
   margin-left: auto;
